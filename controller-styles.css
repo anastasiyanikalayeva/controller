@@ -1,0 +1,21 @@
+/*Controller styles */
+
+button {
+    cursor:pointer;
+    margin: 1px;
+}
+
+#controller {
+    z-index: 2;
+    width: 100px;
+    position: fixed;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+#slider{
+    margin-top:20px;
+}
